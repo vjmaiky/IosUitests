@@ -1,0 +1,25 @@
+# For more information about this configuration visit
+# https://github.com/fastlane/fastlane/tree/master/scan#scanfile
+
+# In general, you can use the options available
+# scan --help
+
+# Remove the # in front of the line to enable the option
+
+# scheme "Example"
+
+# open_report true
+
+# clean true
+
+TEST_DEVICES = [
+    'platform=iOS,id=2ccf30dd21fa31a77967a66580e6c7ee62ecce88',
+    'platform=iOS,id=5d3c119a141e3842c2bb7ac77de8e47bf0c578c4'
+  ]
+
+scheme("IosLearningUITests")
+devices(["TEST_DEVICES"])
+
+clean(true)
+
+output_types("html")

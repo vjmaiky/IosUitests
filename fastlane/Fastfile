@@ -1,0 +1,52 @@
+def generate_report
+    puts "Generating Test Report ..."
+    sh 'xchtmlreport -r test_output/IosLearningUITests.test_result'
+    puts "Test Report Successfully generated"
+end
+
+TEST_DEVICES = [
+    'platform=iOS,id=5d3c119a141e3842c2bb7ac77de8e47bf0c578c4',
+    'platform=iOS,id=2ccf30dd21fa31a77967a66580e6c7ee62ecce88'
+  ]
+  
+private_lane :parrallel_device_test do
+    scan(
+      scheme: 'IosLearningUITests', # Project scheme name
+      clean: true, # Clean project folder before test execution
+      destination: TEST_DEVICES, # Devices for testing 
+      result_bundle: "TestResults" # To generate test reports
+    )
+    generate_report 
+
+    slather(
+    verbose: true, 
+    cobertura_xml: true, 
+    jenkins: true, 
+    input_format: "profdata",
+                build_directory: "build/deriveddata_scan",
+    binary_basename: "IosLearning",
+                output_directory: "fastlane/test_output",
+                scheme: "IosLearningUITests",
+                workspace: "IosLearning.xcworkspace",
+                configuration: "Debug",                
+                source_directory: "IosLearning",
+                proj: "IosLearning.xcodeproj",
+    ignore:['../../*']
+    )
+  end
+
+lane :test do
+  scan(
+    scheme: 'IosLearningUITests',
+    clean: true,
+    device: 'iPhone 8'
+    )
+end
+
+lane :device_test do
+    begin
+      parrallel_device_test
+    rescue
+      generate_report
+    end
+end

@@ -1,0 +1,45 @@
+default_platform :ios
+
+platform :ios do
+	before_all do
+    	cocoapods
+ 	end
+
+ 	lane :test_and_build do
+ 		tests
+ 	end
+
+
+TEST_DEVICES = [
+    'platform=iOS,id=2ccf30dd21fa31a77967a66580e6c7ee62ecce88',
+    'platform=iOS,id=5d3c119a141e3842c2bb7ac77de8e47bf0c578c4'
+  ]
+
+lane :parrallel_device_test do
+    scan(
+      scheme: 'IosLearningUITests',
+      output_directory: "fastlane/test_output/",
+      derived_data_path: "build/deriveddata_scan",
+      resultBundlePath: "/Users/admin/Desktop/rezultateVanBelle",
+      clean: true,
+      destination: TEST_DEVICES,
+      code_coverage: true
+    )
+
+		slather(
+		verbose: true, 
+		cobertura_xml: true, 
+		jenkins: true, 
+		input_format: "profdata",
+                build_directory: "build/deriveddata_scan",
+		binary_basename: "IosLearning",
+                output_directory: "fastlane/test_output",
+                scheme: "IosLearningUITests",
+                workspace: "IosLearning.xcworkspace",
+                configuration: "Debug",                
+                source_directory: "IosLearning",
+                proj: "IosLearning.xcodeproj",
+		ignore:['../../*']
+		)
+  end
+end

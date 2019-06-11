@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: Switch to parrallel_device_test lane" time="0.004427">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: scan" time="69.574587">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: xchtmlreport -r test_output/IosLearningUITests.test_result" time="0.074505">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: slather" time="1.411496">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

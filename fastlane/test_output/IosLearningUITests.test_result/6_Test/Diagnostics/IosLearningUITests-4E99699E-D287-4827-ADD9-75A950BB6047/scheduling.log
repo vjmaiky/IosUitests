@@ -1,0 +1,5 @@
+2019-05-29 13:48:25 +0000: Received worker from worker provider: 0x7ff4207057b0 [0: iPhone7 (5d3c119a141e3842c2bb7ac77de8e47bf0c578c4)]
+2019-05-29 13:48:36 +0000: Worker 0x7ff4207057b0 [1319: iPhone7 (5d3c119a141e3842c2bb7ac77de8e47bf0c578c4)] finished bootstrapping
+2019-05-29 13:48:36 +0000: Parallelization disabled; test execution driven by the test process
+2019-05-29 13:49:03 +0000: Worker 0x7ff4207057b0 [1319: iPhone7 (5d3c119a141e3842c2bb7ac77de8e47bf0c578c4)] finished successfully
+2019-05-29 13:49:03 +0000: Finished executing tests (cancelled: No)

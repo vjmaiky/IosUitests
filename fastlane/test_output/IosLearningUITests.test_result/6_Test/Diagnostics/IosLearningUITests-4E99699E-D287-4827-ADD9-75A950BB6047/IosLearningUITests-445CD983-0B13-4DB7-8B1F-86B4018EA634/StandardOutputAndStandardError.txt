@@ -1,0 +1,117 @@
+2019-05-29 16:48:43.989163+0300 IosLearningUITests-Runner[1319:233635] +[CATransaction synchronize] called within transaction
+2019-05-29 16:48:44.004485+0300 IosLearningUITests-Runner[1319:233635] Running tests...
+Test Suite 'Selected tests' started at 2019-05-29 16:48:44.538
+Test Suite 'IosLearningUITests.xctest' started at 2019-05-29 16:48:44.540
+Test Suite 'FacebookTests' started at 2019-05-29 16:48:44.541
+Test Case '-[IosLearningUITests.FacebookTests testfacebookTests]' started.
+    t =     0.00s Start Test at 2019-05-29 16:48:44.543
+    t =     0.15s Set Up
+----- We are starting the applicaiton under test -----
+    t =     0.17s     Open com.clujtesting.IosLearning
+    t =     0.19s         Launch com.clujtesting.IosLearning
+    t =     6.25s             Wait for com.clujtesting.IosLearning to idle
+----- Application under test was started -----
+----- Verifying that Facebook Category is displayed -----
+    t =     7.71s Find the "facebookBtn" Button
+----- Trying to verify if Give your Facebook is displayed -----
+    t =     7.84s Checking existence of `"facebookBtn" Button`
+----- Trying to click on Facebook Category -----
+    t =     7.87s Waiting 5.0s for "facebookBtn" Button to exist
+    t =     8.90s     Checking `Expect predicate `exists == 1` for object "facebookBtn" Button`
+    t =     8.91s         Checking existence of `"facebookBtn" Button`
+    t =     9.02s Find the "facebookBtn" Button
+----- Trying to click on element Give your Facebook -----
+    t =     9.08s Tap "facebookBtn" Button
+    t =     9.08s     Wait for com.clujtesting.IosLearning to idle
+    t =     9.14s     Find the "facebookBtn" Button
+    t =     9.17s         Check for interrupting elements affecting "facebookBtn" Button
+    t =     9.20s     Synthesize event
+    t =     9.32s     Wait for com.clujtesting.IosLearning to idle
+----- Trying to click on Save Button -----
+    t =     9.94s Waiting 5.0s for "saveButton" Button to exist
+    t =    10.97s     Checking `Expect predicate `exists == 1` for object "saveButton" Button`
+    t =    10.97s         Checking existence of `"saveButton" Button`
+    t =    11.08s Find the "saveButton" Button
+----- Trying to click on element Save -----
+    t =    11.14s Tap "saveButton" Button
+    t =    11.14s     Wait for com.clujtesting.IosLearning to idle
+    t =    11.20s     Find the "saveButton" Button
+    t =    11.23s         Check for interrupting elements affecting "saveButton" Button
+    t =    11.26s     Synthesize event
+    t =    11.36s     Wait for com.clujtesting.IosLearning to idle
+----- Validating that address not save text is displayed -----
+    t =    11.85s Find the "Facebook address was not saved. Please make sure you type something before save" StaticText
+----- Trying to verify if Facebook address was not saved. Please make sure you type something before save is displayed -----
+    t =    11.90s Checking existence of `"Facebook address was not saved. Please make sure you type something before save" StaticText`
+----- Trying to click on Dismiss Button -----
+    t =    11.91s Waiting 5.0s for "Dismiss" Button to exist
+    t =    12.95s     Checking `Expect predicate `exists == 1` for object "Dismiss" Button`
+    t =    12.95s         Checking existence of `"Dismiss" Button`
+    t =    13.05s Find the "Dismiss" Button
+----- Trying to click on element Dismiss -----
+    t =    13.13s Tap "Dismiss" Button
+    t =    13.13s     Wait for com.clujtesting.IosLearning to idle
+    t =    13.18s     Find the "Dismiss" Button
+    t =    13.22s         Check for interrupting elements affecting "Dismiss" Button
+    t =    13.27s     Synthesize event
+    t =    13.37s     Wait for com.clujtesting.IosLearning to idle
+----- Trying to click on Back from facebook page button -----
+    t =    13.82s Waiting 5.0s for "Back" Button to exist
+    t =    14.85s     Checking `Expect predicate `exists == 1` for object "Back" Button`
+    t =    14.85s         Checking existence of `"Back" Button`
+    t =    14.94s Find the "Back" Button
+----- Trying to click on element Back -----
+    t =    15.01s Tap "Back" Button
+    t =    15.02s     Wait for com.clujtesting.IosLearning to idle
+    t =    15.08s     Find the "Back" Button
+    t =    15.11s         Check for interrupting elements affecting "Back" Button
+    t =    15.14s     Synthesize event
+    t =    15.25s     Wait for com.clujtesting.IosLearning to idle
+----- Verifying that Facebook Category is displayed -----
+    t =    15.79s Find the "facebookBtn" Button
+----- Trying to verify if Give your Facebook is displayed -----
+    t =    15.81s Checking existence of `"facebookBtn" Button`
+    t =    15.83s Tear Down
+    t =    15.88s     Added attachment named 'Screenshot of main screen (ID 1)'
+    t =    15.88s     Terminate com.clujtesting.IosLearning:1324
+Test Case '-[IosLearningUITests.FacebookTests testfacebookTests]' passed (16.966 seconds).
+Test Suite 'FacebookTests' passed at 2019-05-29 16:49:01.509.
+	 Executed 1 test, with 0 failures (0 unexpected) in 16.966 (16.968) seconds
+Test Suite 'Tests' started at 2019-05-29 16:49:01.512
+Test Case '-[IosLearningUITests.Tests testMainScreenTest]' started.
+    t =     0.00s Start Test at 2019-05-29 16:49:01.517
+    t =     0.05s Set Up
+----- We are starting the applicaiton under test -----
+    t =     0.05s     Open com.clujtesting.IosLearning
+    t =     0.07s         Launch com.clujtesting.IosLearning
+    t =     4.60s             Wait for com.clujtesting.IosLearning to idle
+----- Application under test was started -----
+----- Verifying that Facebook Category is displayed -----
+    t =     5.99s Find the "facebookBtn" Button
+----- Trying to verify if Give your Facebook is displayed -----
+    t =     6.13s Checking existence of `"facebookBtn" Button`
+----- Trying to click on Facebook Category -----
+    t =     6.16s Waiting 5.0s for "facebookBtn" Button to exist
+    t =     7.18s     Checking `Expect predicate `exists == 1` for object "facebookBtn" Button`
+    t =     7.18s         Checking existence of `"facebookBtn" Button`
+    t =     7.29s Find the "facebookBtn" Button
+----- Trying to click on element Give your Facebook -----
+    t =     7.35s Tap "facebookBtn" Button
+    t =     7.35s     Wait for com.clujtesting.IosLearning to idle
+    t =     7.41s     Find the "facebookBtn" Button
+    t =     7.44s         Check for interrupting elements affecting "facebookBtn" Button
+    t =     7.47s     Synthesize event
+    t =     7.59s     Wait for com.clujtesting.IosLearning to idle
+    t =     8.21s Tear Down
+    t =     8.26s     Added attachment named 'Screenshot of main screen (ID 1)'
+    t =     8.26s     Terminate com.clujtesting.IosLearning:1328
+Test Case '-[IosLearningUITests.Tests testMainScreenTest]' passed (9.373 seconds).
+Test Suite 'Tests' passed at 2019-05-29 16:49:10.890.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.373 (9.379) seconds
+Test Suite 'IosLearningUITests.xctest' passed at 2019-05-29 16:49:10.893.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 26.339 (26.353) seconds
+Test Suite 'XCTest_Gherkin.framework' started at 2019-05-29 16:49:10.898
+Test Suite 'XCTest_Gherkin.framework' passed at 2019-05-29 16:49:10.898.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'Selected tests' passed at 2019-05-29 16:49:10.900.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 26.339 (26.362) seconds

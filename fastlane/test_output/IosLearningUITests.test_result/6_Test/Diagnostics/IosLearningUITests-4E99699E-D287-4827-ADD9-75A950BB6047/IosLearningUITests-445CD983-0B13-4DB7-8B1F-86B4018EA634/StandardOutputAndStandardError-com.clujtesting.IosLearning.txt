@@ -1,0 +1,6 @@
+Standard output and standard error from com.clujtesting.IosLearning with process ID 1324 beginning at 16:48:42.733
+
+2019-05-29 16:48:54.450 IosLearning[1324:233795] Warning: Attempt to present <UINavigationController: 0x108884200> on <IosLearning.MainScreenViewController: 0x107d0a210> whose view is not in the window hierarchy!
+Standard output and standard error from com.clujtesting.IosLearning with process ID 1328 beginning at 16:48:58.135
+
+2019-05-29 16:49:09.693 IosLearning[1328:234051] Warning: Attempt to present <UINavigationController: 0x103863a00> on <IosLearning.MainScreenViewController: 0x10401ce90> whose view is not in the window hierarchy!

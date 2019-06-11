@@ -1,0 +1,937 @@
+16:48:25.709 xcodebuild[68447:382213] Beginning test session IosLearningUITests-4B8698B3-5D85-4E3D-ACE5-BF765EBB10A9 at 2019-05-29 16:48:25.708 with Xcode 10E1001 on target 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> {
+		deviceSerialNumber:         F2LNKU7DG5QQ
+		identifier:                 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+		deviceClass:                iPhone
+		deviceName:                 CLD - Inflight - iPhone 6 Plus
+		deviceIdentifier:           2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+		productVersion:             12.1.4
+		buildVersion:               16D57
+		deviceSoftwareVersion:      12.1.4 (16D57)
+		deviceArchitecture:         arm64
+		deviceTotalCapacity:        11757727744
+		deviceAvailableCapacity:    6622744576
+		deviceIsTransient:          NO
+		ignored:                    NO
+		deviceIsBusy:               NO
+		deviceIsPaired:             YES
+		deviceIsActivated:          YES
+		deviceActivationState:      Activated
+		isPasscodeLocked:           NO
+		deviceType:                 <DVTDeviceType:0x7ff41fdd4790 Xcode.DeviceType.iPhone>
+		supportedDeviceFamilies:    (
+    1
+)
+		applications:              (null)
+		provisioningProfiles:      (null)
+		hasInternalSupport:        NO
+		isSupportedOS:             YES
+		developerDiskMountError:   (null)
+(null)
+	bootArgs:                  (null)
+		nextBootArgs:              (null)
+		connected:                 yes
+		isWirelessEnabled:         no
+		connectionType:            direct
+		hostname:                  (null)
+		bonjourServiceName:        9c:f3:87:43:5e:2c@fe80::9ef3:87ff:fe43:5e2c._apple-mobdev2._tcp.local.
+		} (12.1.4 (16D57))
+16:48:25.709 xcodebuild[68447:382213] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-workspace
+./IosLearning.xcworkspace
+-scheme
+IosLearningUITests
+-destination
+platform=iOS,id=5d3c119a141e3842c2bb7ac77de8e47bf0c578c4
+-destination
+platform=iOS,id=2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+-derivedDataPath
+/Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit
+-resultBundlePath
+./fastlane/test_output/IosLearningUITests.test_result
+clean
+build
+test
+16:48:25.709 xcodebuild[68447:382213] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+16:48:25.711 xcodebuild[68447:382213] Test standard output and standard error is at /Users/Shared/IosLearning/fastlane/test_output/IosLearningUITests.test_result/7_Test/Diagnostics/IosLearningUITests-2544BB86-256B-4CED-BB73-7956DCC417B5/IosLearningUITests-BE1E9DFC-D047-46A8-9ED4-DDF1229059A7/StandardOutputAndStandardError.txt
+16:48:25.711 xcodebuild[68447:382227] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:25.802 xcodebuild[68447:382213] Setting up test runner session
+16:48:25.802 xcodebuild[68447:382213] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    IosLearning,
+    backboardd,
+    xctest,
+    "IosLearningUITests-Runner"
+)
+16:48:25.809 xcodebuild[68447:383277] Connecting to mobile device: 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:25.811 xcodebuild[68447:383277] Starting session with mobile device
+16:48:25.853 xcodebuild[68447:382227] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:25.859 xcodebuild[68447:382213] Finished requesting crash reports. Continuing with testing.
+16:48:25.861 xcodebuild[68447:382213] Launch session started.
+16:48:25.919 xcodebuild[68447:382227] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:25.920 xcodebuild[68447:382227] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:25.922 xcodebuild[68447:383269] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:25.951 xcodebuild[68447:383277] Starting test manager service on mobile device.
+16:48:25.962 xcodebuild[68447:383279] Received connection for test runner session
+16:48:25.962 xcodebuild[68447:383279] Listening for proxy connection request from the test bundle
+16:48:25.963 xcodebuild[68447:382213] Test runner session acquired connection.
+16:48:25.963 xcodebuild[68447:382213] Waiting for test process to launch.
+16:48:25.963 xcodebuild[68447:383279] Initiating session with identifier: 4B8698B3-5D85-4E3D-ACE5-BF765EBB10A9
+16:48:25.965 xcodebuild[68447:383279] Got reply to session initiation request with identifier 4B8698B3-5D85-4E3D-ACE5-BF765EBB10A9 (result:error): 29: (null)
+16:48:26.038 xcodebuild[68447:383269] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.243 xcodebuild[68447:383269] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.244 xcodebuild[68447:383269] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.247 xcodebuild[68447:383281] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.369 xcodebuild[68447:383281] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.395 xcodebuild[68447:383281] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.395 xcodebuild[68447:383277] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: MISProvisioningProfileInstalled
+16:48:26.399 xcodebuild[68447:383281] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.400 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> installing com.apple.test.IosLearningUITests-Runner using MobileInstall
+16:48:26.402 xcodebuild[68447:383270] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.543 xcodebuild[68447:383270] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.678 xcodebuild[68447:383270] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.689 xcodebuild[68447:383270] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.697 xcodebuild[68447:383270] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.825 xcodebuild[68447:383270] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.837 xcodebuild[68447:383270] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.839 xcodebuild[68447:383270] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.842 xcodebuild[68447:383277] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> app uninstall set - {(
+)}
+16:48:26.842 xcodebuild[68447:383277] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> app install set - {(
+    <DVTFilePath:0x7ff420516c70:'/Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearningUITests-Runner.app'>
+)}
+16:48:26.843 xcodebuild[68447:383270] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:26.973 xcodebuild[68447:383270] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:27.148 xcodebuild[68447:383270] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:27.149 xcodebuild[68447:383270] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:30.697 xcodebuild[68447:383273] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: MISProvisioningProfileInstalled
+16:48:30.700 xcodebuild[68447:383283] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.096 xcodebuild[68447:383283] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.213 xcodebuild[68447:383283] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.226 xcodebuild[68447:383283] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.294 xcodebuild[68447:383277] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.367 xcodebuild[68447:383274] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.application_installed
+16:48:31.368 xcodebuild[68447:383270] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.application_installed
+16:48:31.368 xcodebuild[68447:383270] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.application_installed
+16:48:31.368 xcodebuild[68447:383269] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.application_installed
+16:48:31.368 xcodebuild[68447:383283] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.application_installed
+16:48:31.368 xcodebuild[68447:383269] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.application_installed
+16:48:31.368 xcodebuild[68447:383269] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.application_installed
+16:48:31.424 xcodebuild[68447:383277] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.682 xcodebuild[68447:383277] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.683 xcodebuild[68447:383277] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.686 xcodebuild[68447:383268] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.687 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> fetching applications...
+16:48:31.815 xcodebuild[68447:383268] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.879 xcodebuild[68447:383268] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.881 xcodebuild[68447:383268] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:31.883 xcodebuild[68447:383274] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.001 xcodebuild[68447:383274] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.241 xcodebuild[68447:383274] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.242 xcodebuild[68447:383274] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.245 xcodebuild[68447:383277] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.359 xcodebuild[68447:383277] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.692 xcodebuild[68447:383277] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.694 xcodebuild[68447:383277] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.697 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> done fetching applications...
+16:48:32.698 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> remoteExecutable setInstalledPath:/private/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app
+
+16:48:32.698 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> configuring for testing on device
+16:48:32.698 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> updating test configuration with device paths
+16:48:32.700 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> updated test configuration at /Users/Shared/IosLearning/fastlane/test_output/IosLearningUITests.test_result/7_Test/Diagnostics/IosLearningUITests-2544BB86-256B-4CED-BB73-7956DCC417B5/IosLearningUITests-BE1E9DFC-D047-46A8-9ED4-DDF1229059A7/LaunchSessions/4B8698B3-5D85-4E3D-ACE5-BF765EBB10A9/remote-container/tmp/IosLearningUITests-4B8698B3-5D85-4E3D-ACE5-BF765EBB10A9.xctestconfiguration with device paths: <XCTestConfiguration: 0x7ff4205aa110>
+	                  testBundleURL:file:///private/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/PlugIns/IosLearningUITests.xctest
+	         testBundleRelativePath:(null)
+	              productModuleName:IosLearningUITests
+	                    testsToSkip:Waiters, BaseTest
+	                     testsToRun:(null)
+	             reportResultsToIDE:YES
+	               testsDrivenByIDE:no
+	              sessionIdentifier:4B8698B3-5D85-4E3D-ACE5-BF765EBB10A9
+	      disablePerformanceMetrics:no
+	treatMissingBaselinesAsFailures:no
+	                baselineFileURL:(null)
+	       baselineFileRelativePath:(null)
+	          targetApplicationPath:/Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app
+	      targetApplicationBundleID:com.clujtesting.IosLearning
+	 testApplicationDependencies:
+{
+    "com.apple.test.IosLearningUITests-Runner" = "/Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearningUITests-Runner.app";
+    "com.clujtesting.IosLearning" = "/Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app";
+}
+	 testApplicationUserOverrides:(null)
+	     targetApplicationArguments:
+	   targetApplicationEnvironment:
+{
+}
+	               reportActivities:YES
+	       testsMustRunOnMainThread:YES
+	         initializeForUITesting:YES
+	 aggregateStatisticsBeforeCrash:
+{
+    XCSuiteRecordsKey =     {
+    };
+}
+	        automationFrameworkPath:/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+	 bridgedAutomationFrameworkPath:(null)
+	                     emitOSLogs:no
+	       systemAttachmentLifetime:1
+	         userAttachmentLifetime:1
+	   gatherLocalizableStringsData:no
+	          testExecutionOrdering:lexical
+	    randomExecutionOrderingSeed:(null)
+
+16:48:32.700 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> uploading test configuration to app container
+16:48:32.702 xcodebuild[68447:383269] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:32.813 xcodebuild[68447:383269] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:33.269 xcodebuild[68447:383279] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.keybagd.lock_status
+16:48:33.735 xcodebuild[68447:383268] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.keybagd.lock_status
+16:48:34.742 xcodebuild[68447:383269] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:34.745 xcodebuild[68447:383269] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:34.750 xcodebuild[68447:383268] Requesting 2ccf30dd21fa31a77967a66580e6c7ee62ecce88: <DTDKCopyValueRequest: 0x7ff420625640> { domain: (null), key: PasswordProtected}
+16:48:34.753 xcodebuild[68447:383268] Failed (will try again with session) 2ccf30dd21fa31a77967a66580e6c7ee62ecce88: <DTDKCopyValueRequest: 0x7ff420625640> { domain: (null), key: PasswordProtected}
+16:48:34.855 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> updating test process environment variables
+16:48:34.855 xcodebuild[68447:383281] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> updated testing environment variables {
+    "DYLD_FRAMEWORK_PATH" = "/private/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/Frameworks:";
+    "DYLD_INSERT_LIBRARIES" = "/Developer/usr/lib/libMainThreadChecker.dylib";
+    "DYLD_LIBRARY_PATH" = "/usr/lib/swift:/private/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/Frameworks";
+    "MTC_CRASH_ON_REPORT" = 1;
+    XCTestConfigurationFilePath = "/private/var/mobile/Containers/Data/Application/DECDAF26-8189-4FD7-9AD7-52FDA5573741/tmp/IosLearningUITests-4B8698B3-5D85-4E3D-ACE5-BF765EBB10A9.xctestconfiguration";
+}
+16:48:34.900 xcodebuild[68447:383268] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:34.900 xcodebuild[68447:383268] Requesting (with session) 2ccf30dd21fa31a77967a66580e6c7ee62ecce88: <DTDKCopyValueRequest: 0x7ff420625640> { domain: (null), key: PasswordProtected}
+16:48:34.905 xcodebuild[68447:383268] Request succeeded 2ccf30dd21fa31a77967a66580e6c7ee62ecce88: <DTDKCopyValueRequest: 0x7ff420625640> { domain: (null), key: PasswordProtected} (0)
+16:48:34.906 xcodebuild[68447:383268] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:34.911 xcodebuild[68447:383269] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:35.032 xcodebuild[68447:383269] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:35.477 xcodebuild[68447:383279] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.keybagd.lock_status
+16:48:36.027 xcodebuild[68447:383270] Device 2ccf30dd21fa31a77967a66580e6c7ee62ecce88 received darwin note: com.apple.mobile.keybagd.lock_status
+16:48:37.074 xcodebuild[68447:383269] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:37.078 xcodebuild[68447:383269] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:37.082 xcodebuild[68447:383281] Requesting 2ccf30dd21fa31a77967a66580e6c7ee62ecce88: <DTDKCopyValueRequest: 0x7ff420739170> { domain: (null), key: PasswordProtected}
+16:48:37.085 xcodebuild[68447:383281] Failed (will try again with session) 2ccf30dd21fa31a77967a66580e6c7ee62ecce88: <DTDKCopyValueRequest: 0x7ff420739170> { domain: (null), key: PasswordProtected}
+16:48:37.259 xcodebuild[68447:383281] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:37.259 xcodebuild[68447:383281] Requesting (with session) 2ccf30dd21fa31a77967a66580e6c7ee62ecce88: <DTDKCopyValueRequest: 0x7ff420739170> { domain: (null), key: PasswordProtected}
+16:48:37.269 xcodebuild[68447:383281] Request succeeded 2ccf30dd21fa31a77967a66580e6c7ee62ecce88: <DTDKCopyValueRequest: 0x7ff420739170> { domain: (null), key: PasswordProtected} (0)
+16:48:37.270 xcodebuild[68447:383281] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:37.275 xcodebuild[68447:383277] Started connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:37.396 xcodebuild[68447:383277] Started session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:37.408 xcodebuild[68447:383277] Ending session with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:37.410 xcodebuild[68447:383277] Ending connection with 2ccf30dd21fa31a77967a66580e6c7ee62ecce88
+16:48:37.724 xcodebuild[68447:382213] Test process runnable PID is 47848.
+2019-05-27 16:52:06.126572+0300 IosLearningUITests-Runner[47848:7493677] Running tests...
+16:48:38.583 xcodebuild[68447:383268] Handling proxy channel request from test runner
+16:48:38.584 xcodebuild[68447:383268] Test runner is ready, running protocol 30, requires at least version 7. Control framework is running 30 and requires at least 7
+16:48:38.584 xcodebuild[68447:382213] Test runner session successfully initiated.
+16:48:38.584 xcodebuild[68447:382213] Whitelisting test process ID 47848
+16:48:38.587 xcodebuild[68447:382213] Got whitelisting response from test daemon: Success
+16:48:38.588 xcodebuild[68447:382213] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    IosLearning,
+    backboardd,
+    xctest,
+    "IosLearningUITests-Runner"
+)
+16:48:38.588 xcodebuild[68447:382213] Telling test runner to start executing tests.
+16:52:06.599 IosLearningUITests-Runner[47848:7493715] _IDE_startExecutingTestPlanWithProtocolVersion:30
+16:52:06.599 IosLearningUITests-Runner[47848:7493715] <XCTWaiter: 0x2806ad950, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:06.600 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ad950, state: XCTWaiterStateSucceeded> done waiting
+16:52:06.600 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ad950, state: XCTWaiterStateInProgress>.
+16:52:06.600 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ad950, state: XCTWaiterStateSucceeded> cleaning up `IDE session ready for test plan`
+16:52:06.142 IosLearningUITests-Runner[47848:7493677] Linked XCTest.framework from /var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/Frameworks/XCTest.framework/XCTest, built with Xcode 1020(10E126), modified on Wednesday, 29. May 2019 at 16:48:25 Eastern European Summer Time
+XCTest.framework bundle version: 14490.71
+16:52:06.146 IosLearningUITests-Runner[47848:7493677] System uptime: 1mo 2w 2d 11:54:11
+16:52:06.146 IosLearningUITests-Runner[47848:7493677] Process arguments: (
+    "/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/IosLearningUITests-Runner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+16:52:06.146 IosLearningUITests-Runner[47848:7493677] Process environment: {
+    "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+    "CA_DEBUG_TRANSACTIONS" = 0;
+    "CFFIXED_USER_HOME" = "/private/var/mobile/Containers/Data/Application/DECDAF26-8189-4FD7-9AD7-52FDA5573741";
+    CLASSIC = 1;
+    "DYLD_FRAMEWORK_PATH" = "/private/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/Frameworks::/private/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/Frameworks:";
+    "DYLD_LIBRARY_PATH" = "/usr/lib/swift:/private/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/Frameworks:/usr/lib/swift:/private/var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/Frameworks";
+    HOME = "/private/var/mobile/Containers/Data/Application/DECDAF26-8189-4FD7-9AD7-52FDA5573741";
+    "LLVM_PROFILE_FILE" = "/private/var/mobile/Containers/Data/Application/DECDAF26-8189-4FD7-9AD7-52FDA5573741/tmp/71CE717F-2026-423D-9E49-75FD5B62E7D1/1843AE20-A181-41C8-B9C5-C5FB40A2F1AC-%p.profraw%15x";
+    LOGNAME = mobile;
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/usr/bin:/bin:/usr/sbin:/sbin";
+    SHELL = "/bin/sh";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    TMPDIR = "/private/var/mobile/Containers/Data/Application/DECDAF26-8189-4FD7-9AD7-52FDA5573741/tmp/";
+    USER = mobile;
+    XCTestConfigurationFilePath = "/private/var/mobile/Containers/Data/Application/DECDAF26-8189-4FD7-9AD7-52FDA5573741/tmp/IosLearningUITests-4B8698B3-5D85-4E3D-ACE5-BF765EBB10A9.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.IosLearningUITests-Runner[0x2b42][62]";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0:0";
+    "__XPC_LLVM_PROFILE_FILE" = "/private/var/mobile/Containers/Data/Application/DECDAF26-8189-4FD7-9AD7-52FDA5573741/tmp/71CE717F-2026-423D-9E49-75FD5B62E7D1/1843AE20-A181-41C8-B9C5-C5FB40A2F1AC-%p.profraw%15x";
+}
+16:52:06.147 IosLearningUITests-Runner[47848:7493677] App Sandbox active: YES
+16:52:06.147 IosLearningUITests-Runner[47848:7493677] Creating future for 'Acquiring IDE transport' with timeout 60.00
+16:52:06.151 IosLearningUITests-Runner[47848:7493677] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+16:52:06.154 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a06a0, state: XCTWaiterStateSucceeded> entering wait loop for 15.00s with expectations: `Exchange protocol versions with daemon`
+16:52:06.154 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a06a0, state: XCTWaiterStateSucceeded> done waiting
+16:52:06.154 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a06a0, state: XCTWaiterStateInProgress>.
+16:52:06.154 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a06a0, state: XCTWaiterStateSucceeded> cleaning up `Exchange protocol versions with daemon`
+16:52:06.155 IosLearningUITests-Runner[47848:7493677] Got daemon protocol version 26
+16:52:06.156 IosLearningUITests-Runner[47848:7493677] Requesting IDE connection transport
+16:52:06.157 IosLearningUITests-Runner[47848:7493715] Creating transport with received transport data
+16:52:06.157 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0590, state: XCTWaiterStateInProgress> entering wait loop for 59.99s with expectations: `Acquiring IDE transport`
+16:52:06.158 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0590, state: XCTWaiterStateSucceeded> done waiting
+16:52:06.158 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a0590, state: XCTWaiterStateInProgress>.
+16:52:06.158 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0590, state: XCTWaiterStateSucceeded> cleaning up `Acquiring IDE transport`
+16:52:06.158 IosLearningUITests-Runner[47848:7493677] Creating connection with transport <DTXFileDescriptorTransport: 0x282aa4b80>
+16:52:06.159 IosLearningUITests-Runner[47848:7493677] Creating the proxy channel with connection <DTXConnection 0x2838ad100 : x1>
+16:48:38.601 xcodebuild[68447:382213] Starting test plan, clearing initialization timeout timer.
+16:52:06.610 IosLearningUITests-Runner[47848:7493677] Initializing for UI testing.
+16:52:06.616 IosLearningUITests-Runner[47848:7493677] Linked XCTAutomationSupport.framework from /var/containers/Bundle/Application/F552233C-E980-4DCB-9599-65BC417AE26A/IosLearningUITests-Runner.app/Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport, built with Xcode 1020(10E126), modified on Wednesday, 29. May 2019 at 16:48:25 Eastern European Summer Time
+XCTAutomationSupport.framework bundle version: 14490.71
+16:52:06.617 IosLearningUITests-Runner[47848:7493677] Creating future for 'Loading Accessibility' with timeout 70.00
+16:52:06.618 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ada70, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: `Loading Accessibility`
+16:52:07.255 IosLearningUITests-Runner[47848:7493715] <XCTWaiter: 0x2806ada70, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:07.256 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ada70, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.258 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ada70, state: XCTWaiterStateInProgress>.
+16:52:07.258 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ada70, state: XCTWaiterStateSucceeded> cleaning up `Loading Accessibility`
+16:52:07.261 IosLearningUITests-Runner[47848:7493677] Creating future for 'Enable gathering of localized strings' with timeout 70.00
+16:52:07.263 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adc80, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: `Enable gathering of localized strings`
+16:52:07.268 IosLearningUITests-Runner[47848:7493724] <XCTWaiter: 0x2806adc80, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:07.278 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adc80, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.279 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806adc80, state: XCTWaiterStateInProgress>.
+16:52:07.280 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adc80, state: XCTWaiterStateSucceeded> cleaning up `Enable gathering of localized strings`
+16:52:07.281 IosLearningUITests-Runner[47848:7493677] Creating future for 'Set AX timeout to 60.00s' with timeout 65.00
+16:52:07.282 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0d10, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Set AX timeout to 60.00s`
+16:52:07.285 IosLearningUITests-Runner[47848:7493714] <XCTWaiter: 0x2806a0d10, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:07.286 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0d10, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.287 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a0d10, state: XCTWaiterStateInProgress>.
+16:52:07.287 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0d10, state: XCTWaiterStateSucceeded> cleaning up `Set AX timeout to 60.00s`
+16:52:07.291 IosLearningUITests-Runner[47848:7493677] Creating future for 'Registering for kAXUserTestingNotification' with timeout 65.00
+16:52:07.291 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0dc0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXUserTestingNotification`
+16:52:07.294 IosLearningUITests-Runner[47848:7493714] <XCTWaiter: 0x2806a0dc0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:07.295 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0dc0, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.296 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a0dc0, state: XCTWaiterStateInProgress>.
+16:52:07.296 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0dc0, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXUserTestingNotification`
+16:52:07.296 IosLearningUITests-Runner[47848:7493677] Creating future for 'Registering for kAXAlertNotification' with timeout 65.00
+16:52:07.298 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adcf0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXAlertNotification`
+16:52:07.300 IosLearningUITests-Runner[47848:7493715] <XCTWaiter: 0x2806adcf0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:07.300 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adcf0, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.301 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806adcf0, state: XCTWaiterStateInProgress>.
+16:52:07.301 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adcf0, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXAlertNotification`
+16:52:07.301 IosLearningUITests-Runner[47848:7493677] Creating future for 'Registering for kAXPidStatusChangedNotification' with timeout 65.00
+16:52:07.302 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0e30, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXPidStatusChangedNotification`
+16:52:07.304 IosLearningUITests-Runner[47848:7493714] <XCTWaiter: 0x2806a0e30, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:07.305 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0e30, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.306 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a0e30, state: XCTWaiterStateInProgress>.
+16:52:07.306 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a0e30, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXPidStatusChangedNotification`
+16:52:07.307 IosLearningUITests-Runner[47848:7493677] Creating future for 'Request background assertion for test process' with timeout 30.00
+16:52:07.307 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806add70, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request background assertion for test process`
+16:52:07.310 IosLearningUITests-Runner[47848:7493714] Got reply for background assertion for 47848, acquired: YES.
+16:52:07.310 IosLearningUITests-Runner[47848:7493714] <XCTWaiter: 0x2806add70, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:07.312 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806add70, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.312 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806add70, state: XCTWaiterStateInProgress>.
+16:52:07.312 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806add70, state: XCTWaiterStateSucceeded> cleaning up `Request background assertion for test process`
+16:52:07.313 IosLearningUITests-Runner[47848:7493677] Test runner is already executing in the background.
+16:52:07.315 IosLearningUITests-Runner[47848:7493677] Done initializing for UI testing.
+16:52:07.316 IosLearningUITests-Runner[47848:7493677] Entering test execution event loop
+16:52:07.319 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testBundleWillStart:]
+16:52:07.320 IosLearningUITests-Runner[47848:7493677] Loading test suite...
+16:52:07.385 IosLearningUITests-Runner[47848:7493677] XCUIApplicationImplDepot: Creating XCUIApplicationImpl for identifier: com.clujtesting.IosLearning
+16:52:07.388 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=0
+16:52:07.391 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=0
+16:52:07.392 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adea0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:07.393 IosLearningUITests-Runner[47848:7493677] [AM:0] Processing state snapshot for com.clujtesting.IosLearning
+16:52:07.396 IosLearningUITests-Runner[47848:7493677] <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app> changing currentProcess from (null) to com.clujtesting.IosLearning (pid:0)
+16:52:07.397 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=0
+16:52:07.398 IosLearningUITests-Runner[47848:7493714] com.clujtesting.IosLearning (pid:0) application state Unknown (0) -> Not Running (1)
+16:52:07.399 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:07.400 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adea0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:07.402 IosLearningUITests-Runner[47848:7493677] App state updated for <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app>: Not Running (1)
+16:52:07.403 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:07.404 IosLearningUITests-Runner[47848:7493677] Done setting pid for <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app> to 0
+16:52:07.405 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:07.406 IosLearningUITests-Runner[47848:7493677] App state updated for <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app>: Not Running (1)
+16:52:07.407 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:07.408 IosLearningUITests-Runner[47848:7493677] [AM:0] Processing state snapshot for com.clujtesting.IosLearning
+16:52:07.408 IosLearningUITests-Runner[47848:7493677] Done setting pid for <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app> to 0
+16:52:07.409 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:07.410 IosLearningUITests-Runner[47848:7493677] App state updated for <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app>: Not Running (1)
+16:52:07.411 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:07.412 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adea0, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.412 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806adea0, state: XCTWaiterStateInProgress>.
+16:52:07.412 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806adea0, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:07.412 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'
+16:52:07.415 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:07.416 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae590, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:07.416 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae590, state: XCTWaiterStateSucceeded> done waiting
+16:52:07.416 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae590, state: XCTWaiterStateInProgress>.
+16:52:07.416 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae590, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:07.416 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'
+16:52:07.420 IosLearningUITests-Runner[47848:7493677] Finished loading test suite, took 0.100s
+16:52:07.420 IosLearningUITests-Runner[47848:7493677] Running suite...
+Test Suite 'Selected tests' started at 2019-05-27 16:52:07.422
+16:52:07.423 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testSuiteWillStart:]
+16:48:39.416 xcodebuild[68447:382213] _XCT_testSuite:Selected tests didStartAt:2019-05-27 13:52:07 +0000
+16:48:43.218 xcodebuild[68447:383274] (LOG ARBITER) Rotating message buffer with 341 messages.
+16:48:45.648 xcodebuild[68447:383278] (LOG ARBITER) Rotating message buffer with 197 messages.
+16:48:48.648 xcodebuild[68447:382227] (LOG ARBITER) Rotating message buffer with 224 messages.
+16:48:52.389 xcodebuild[68447:383278] (LOG ARBITER) Rotating message buffer with 701 messages.
+16:48:55.398 xcodebuild[68447:383268] (LOG ARBITER) Rotating message buffer with 470 messages.
+16:48:58.079 xcodebuild[68447:383278] (LOG ARBITER) Dumping buffered message data; 1933 messages.
+16:48:58.088 xcodebuild[68447:382227] (LOG ARBITER) Rotating message buffer with 496 messages.
+16:49:00.648 xcodebuild[68447:383269] (LOG ARBITER) Rotating message buffer with 273 messages.
+16:49:04.411 xcodebuild[68447:383269] (LOG ARBITER) Rotating message buffer with 356 messages.
+16:49:06.416 xcodebuild[68447:383284] (LOG ARBITER) Rotating message buffer with 102 messages.
+16:49:08.767 xcodebuild[68447:382227] (LOG ARBITER) Dumping buffered message data; 1227 messages.
+16:49:06.779 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff420734930> 2019-05-27 13:52:34 +0000: Checking `Expect predicate `exists == 1` for object "facebookBtn" Button`
+16:49:06.780 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff42074a540> 2019-05-27 13:52:34 +0000: Checking existence of `"facebookBtn" Button`
+16:52:34.781 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x282782b70> 2019-05-27 13:52:34 +0000: Checking `Expect predicate `exists == 1` for object "facebookBtn" Button`
+16:52:34.782 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x282780f00> 2019-05-27 13:52:34 +0000: Checking existence of `"facebookBtn" Button`
+16:52:34.784 IosLearningUITests-Runner[47848:7493677] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+16:52:34.784 IosLearningUITests-Runner[47848:7493677] Creating future for 'remote query' with timeout 30.00
+    t =     8.69s     Checking `Expect predicate `exists == 1` for object "facebookBtn" Button`
+    t =     8.69s         Checking existence of `"facebookBtn" Button`
+16:52:34.792 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806aeb40, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `remote query`
+16:52:34.816 IosLearningUITests-Runner[47848:7493733] <XCTWaiter: 0x2806aeb40, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:34.817 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806aeb40, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.817 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806aeb40, state: XCTWaiterStateInProgress>.
+16:52:34.817 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806aeb40, state: XCTWaiterStateSucceeded> cleaning up `remote query`
+16:52:34.819 IosLearningUITests-Runner[47848:7493677] results tree:
+Application, pid: 47856, label: 'IosLearning'
+  Window (Main)
+    Other
+      Other
+        Other
+          Other
+            Other
+              Button, identifier: 'facebookBtn', label: 'Give your Facebook'
+16:49:06.813 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff42074a540> 2019-05-27 13:52:34 +0000: Checking existence of `"facebookBtn" Button` (0.037681s)
+16:52:34.820 IosLearningUITests-Runner[47848:7493677] matches: {(
+    Button, identifier: 'facebookBtn', label: 'Give your Facebook'
+)}
+16:52:34.820 IosLearningUITests-Runner[47848:7493677] remote elements: {(
+)}
+16:52:34.820 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x282780f00> 2019-05-27 13:52:34 +0000: Checking existence of `"facebookBtn" Button` (0.037681s)
+16:52:34.821 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x282782b70> 2019-05-27 13:52:34 +0000: Checking `Expect predicate `exists == 1` for object "facebookBtn" Button` (0.0399549s)
+16:49:06.814 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff42074a540> 2019-05-27 13:52:34 +0000: Checking `Expect predicate `exists == 1` for object "facebookBtn" Button` (0.0399549s)
+16:52:34.824 IosLearningUITests-Runner[47848:7493733] <XCTWaiter: 0x2806a1900, state: XCTWaiterStateSucceeded>: cancelWaiting
+    t =     8.73s Find the "facebookBtn" Button
+16:49:06.820 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff420668a30> 2019-05-27 13:52:33 +0000: Waiting 5.0s for "facebookBtn" Button to exist (1.04681s)
+16:49:06.820 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff420a128f0> 2019-05-27 13:52:34 +0000: Find the "facebookBtn" Button
+16:52:34.825 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1900, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.825 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1900, state: XCTWaiterStateInProgress>.
+16:52:34.825 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1900, state: XCTWaiterStateSucceeded> cleaning up `Expect predicate `exists == 1` for object "facebookBtn" Button`
+16:52:34.825 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x2827907d0> 2019-05-27 13:52:33 +0000: Waiting 5.0s for "facebookBtn" Button to exist (1.04681s)
+16:52:34.826 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x2827907d0> 2019-05-27 13:52:34 +0000: Find the "facebookBtn" Button
+16:52:34.827 IosLearningUITests-Runner[47848:7493677] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+16:52:34.827 IosLearningUITests-Runner[47848:7493677] Creating future for 'remote query' with timeout 30.00
+16:52:34.836 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `remote query`
+16:52:34.853 IosLearningUITests-Runner[47848:7493733] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:34.854 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.854 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2030, state: XCTWaiterStateInProgress>.
+16:52:34.854 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded> cleaning up `remote query`
+16:52:34.856 IosLearningUITests-Runner[47848:7493677] results tree:
+Application, pid: 47856, label: 'IosLearning'
+  Window (Main)
+    Other
+      Other
+        Other
+          Other
+            Other
+              Button, identifier: 'facebookBtn', label: 'Give your Facebook'
+16:52:34.856 IosLearningUITests-Runner[47848:7493677] matches: {(
+    Button, identifier: 'facebookBtn', label: 'Give your Facebook'
+)}
+----- Trying to click on element Give your Facebook -----
+16:52:34.856 IosLearningUITests-Runner[47848:7493677] remote elements: {(
+)}
+16:49:06.851 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff420734930> 2019-05-27 13:52:34 +0000: Find the "facebookBtn" Button (0.030588s)
+16:52:34.857 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x2827907d0> 2019-05-27 13:52:34 +0000: Find the "facebookBtn" Button (0.030588s)
+16:52:34.857 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with attribute fetching on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:34.858 IosLearningUITests-Runner[47848:7493677] Creating future for 'Using automation session to fetch attributes 'XC_kAXXCAttributeValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23' with timeout 30.00
+16:52:34.862 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1620, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Using automation session to fetch attributes 'XC_kAXXCAttributeValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:52:34.862 IosLearningUITests-Runner[47848:7493715] <XCTWaiter: 0x2806a1620, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:34.862 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1620, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.862 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1620, state: XCTWaiterStateInProgress>.
+16:52:34.863 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1620, state: XCTWaiterStateSucceeded> cleaning up `Using automation session to fetch attributes 'XC_kAXXCAttributeValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:52:34.865 IosLearningUITests-Runner[47848:7493677] Button, identifier: 'facebookBtn', label: 'Give your Facebook' faulted in (null): Fetching value for attribute XC_kAXXCAttributeValue returned AX error kAXErrorAttributeUnsupported. for value using XC_kAXXCAttributeValue
+16:52:34.865 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with attribute fetching on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:34.865 IosLearningUITests-Runner[47848:7493677] Creating future for 'Using automation session to fetch attributes 'XC_kAXXCAttributePlaceholderValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23' with timeout 30.00
+16:52:34.868 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Using automation session to fetch attributes 'XC_kAXXCAttributePlaceholderValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:52:34.869 IosLearningUITests-Runner[47848:7493871] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:34.870 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.870 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateInProgress>.
+16:52:34.870 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded> cleaning up `Using automation session to fetch attributes 'XC_kAXXCAttributePlaceholderValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:49:06.865 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff4206004f0> 2019-05-27 13:52:34 +0000: Tap "facebookBtn" Button
+16:52:34.872 IosLearningUITests-Runner[47848:7493677] Button, identifier: 'facebookBtn', label: 'Give your Facebook' faulted in (null): Fetching value for attribute XC_kAXXCAttributePlaceholderValue returned AX error kAXErrorAttributeUnsupported. for placeholderValue using XC_kAXXCAttributePlaceholderValue
+16:52:34.873 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x282790aa0> 2019-05-27 13:52:34 +0000: Tap "facebookBtn" Button
+16:52:34.874 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x282782cb0> 2019-05-27 13:52:34 +0000: Wait for com.clujtesting.IosLearning to idle
+    t =     8.78s Tap "facebookBtn" Button
+    t =     8.78s     Wait for com.clujtesting.IosLearning to idle
+16:49:06.867 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff41ff28bc0> 2019-05-27 13:52:34 +0000: Wait for com.clujtesting.IosLearning to idle
+16:52:34.875 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screens' with timeout 30.00
+16:52:34.877 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806aec20, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screens`
+16:52:34.877 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806aec20, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.877 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806aec20, state: XCTWaiterStateInProgress>.
+16:52:34.877 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806aec20, state: XCTWaiterStateSucceeded> cleaning up `get screens`
+16:52:34.879 IosLearningUITests-Runner[47848:7493677] Request screenshot for frame {{inf, inf}, {0.0, 0.0}} of screen with ID 1, quality 1
+16:52:34.879 IosLearningUITests-Runner[47848:7493677] Creating future for 'Request screenshot' with timeout 30.00
+16:52:34.880 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screen scale' with timeout 30.00
+16:52:34.881 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1630, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+16:52:34.882 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1630, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.882 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1630, state: XCTWaiterStateInProgress>.
+16:52:34.882 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1630, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+16:52:34.885 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request screenshot`
+16:52:34.939 IosLearningUITests-Runner[47848:7493724] <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:34.940 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.941 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateInProgress>.
+16:52:34.941 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateSucceeded> cleaning up `Request screenshot`
+16:52:34.941 IosLearningUITests-Runner[47848:7493677] Activity 1BF1119E-63E9-4FAC-A315-FEA03CE99B9E added attachment with name 'kXCTAttachmentLegacyScreenImageData', UTI 'public.jpeg', lifetime 'deleteOnSuccess', hasPayload: YES.
+16:52:34.941 IosLearningUITests-Runner[47848:7493677] Waiting for com.clujtesting.IosLearning (PID 47856) quiescence...
+16:52:34.941 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with main run loop idle notifications on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:34.942 IosLearningUITests-Runner[47848:7493724] com.clujtesting.IosLearning (pid:47856) eventLoopHasIdled 1 -> 0
+16:52:34.942 IosLearningUITests-Runner[47848:7493724] Posting KVO notifications for eventLoopHasIdled
+16:52:34.941 IosLearningUITests-Runner[47848:7493677] Requesting main run loop idle notification using automation session for com.clujtesting.IosLearning (pid:47856)
+16:52:34.944 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with animations idle notifications on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:34.946 IosLearningUITests-Runner[47848:7493871] com.clujtesting.IosLearning (pid:47856) animationsHaveFinished 1 -> 0
+16:52:34.947 IosLearningUITests-Runner[47848:7493724] Posting KVO notifications for animationsHaveFinished
+16:52:34.944 IosLearningUITests-Runner[47848:7493677] Requesting animations idle notification using automation session for com.clujtesting.IosLearning (pid:47856)
+16:52:34.947 IosLearningUITests-Runner[47848:7493677] Waiting on quiescence state variables
+16:52:34.947 IosLearningUITests-Runner[47848:7493715] Got event loop idle reply for com.clujtesting.IosLearning (PID 47856)
+16:52:34.947 IosLearningUITests-Runner[47848:7493715] Event loop is idle.
+16:52:34.948 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=1
+16:52:34.949 IosLearningUITests-Runner[47848:7493733] com.clujtesting.IosLearning (pid:47856) eventLoopHasIdled 0 -> 1
+16:52:34.950 IosLearningUITests-Runner[47848:7493724] Got animations reply for com.clujtesting.IosLearning (PID 47856)
+16:52:34.950 IosLearningUITests-Runner[47848:7493724] Animations are not active.
+16:52:34.952 IosLearningUITests-Runner[47848:7493871] Posting KVO notifications for eventLoopHasIdled
+16:52:34.953 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1': fulfill=0
+16:52:34.953 IosLearningUITests-Runner[47848:7493871] com.clujtesting.IosLearning (pid:47856) animationsHaveFinished 0 -> 1
+16:52:34.953 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1': fulfill=0
+16:52:34.954 IosLearningUITests-Runner[47848:7493724] Posting KVO notifications for animationsHaveFinished
+16:52:34.955 IosLearningUITests-Runner[47848:7493677] Fulfilling (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1') because Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' is fulfilled
+16:52:34.955 IosLearningUITests-Runner[47848:7493677] isQuiescent: self.eventLoopHasIdled: 1 && self.animationsHaveFinished: 1
+16:52:34.955 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1': fulfill=1
+16:52:34.956 IosLearningUITests-Runner[47848:7493677] Fulfilling (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) because all subexpectations are fulfilled
+16:52:34.956 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:34.956 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:34.956 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:34.956 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:34.957 IosLearningUITests-Runner[47848:7493677] Fulfilling (Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0' OR (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) OR Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0') because (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) is fulfilled
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `(Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0' OR (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) OR Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0')`
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae740, state: XCTWaiterStateInProgress>.
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> cleaning up `(Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0' OR (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) OR Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0')`
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0'
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1'
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0'
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1'
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0'
+16:52:34.958 IosLearningUITests-Runner[47848:7493677] com.clujtesting.IosLearning has quiesced or quiescence timeout has elapsed.
+    t =     8.87s     Find the "facebookBtn" Button
+16:49:06.986 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff420162730> 2019-05-27 13:52:34 +0000: Wait for com.clujtesting.IosLearning to idle (0.085603s)
+16:52:34.959 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x282782cb0> 2019-05-27 13:52:34 +0000: Wait for com.clujtesting.IosLearning to idle (0.085603s)
+16:49:06.987 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff42093cbc0> 2019-05-27 13:52:34 +0000: Find the "facebookBtn" Button
+16:52:34.961 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x282780aa0> 2019-05-27 13:52:34 +0000: Find the "facebookBtn" Button
+16:52:34.964 IosLearningUITests-Runner[47848:7493677] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+16:52:34.964 IosLearningUITests-Runner[47848:7493677] Creating future for 'remote query' with timeout 30.00
+16:52:34.984 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae440, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `remote query`
+16:52:34.990 IosLearningUITests-Runner[47848:7493716] <XCTWaiter: 0x2806ae440, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:34.991 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae440, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.991 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae440, state: XCTWaiterStateInProgress>.
+16:52:34.991 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae440, state: XCTWaiterStateSucceeded> cleaning up `remote query`
+16:52:34.993 IosLearningUITests-Runner[47848:7493677] results tree:
+Application, pid: 47856, label: 'IosLearning'
+  Window (Main)
+    Other
+      Other
+        Other
+          Other
+            Other
+              Button, identifier: 'facebookBtn', label: 'Give your Facebook'
+16:52:34.993 IosLearningUITests-Runner[47848:7493677] matches: {(
+    Button, identifier: 'facebookBtn', label: 'Give your Facebook'
+)}
+16:52:34.993 IosLearningUITests-Runner[47848:7493677] remote elements: {(
+)}
+16:52:34.993 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with attribute fetching on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:34.994 IosLearningUITests-Runner[47848:7493677] Creating future for 'Using automation session to fetch attributes 'XC_kAXXCAttributeValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23' with timeout 30.00
+16:52:34.998 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Using automation session to fetch attributes 'XC_kAXXCAttributeValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:52:34.998 IosLearningUITests-Runner[47848:7493733] <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:34.998 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateSucceeded> done waiting
+16:52:34.998 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateInProgress>.
+16:52:34.998 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateSucceeded> cleaning up `Using automation session to fetch attributes 'XC_kAXXCAttributeValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:52:35.001 IosLearningUITests-Runner[47848:7493677] Button, identifier: 'facebookBtn', label: 'Give your Facebook' faulted in (null): Fetching value for attribute XC_kAXXCAttributeValue returned AX error kAXErrorAttributeUnsupported. for value using XC_kAXXCAttributeValue
+16:52:35.001 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with attribute fetching on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:35.001 IosLearningUITests-Runner[47848:7493677] Creating future for 'Using automation session to fetch attributes 'XC_kAXXCAttributePlaceholderValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23' with timeout 30.00
+16:52:35.003 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Using automation session to fetch attributes 'XC_kAXXCAttributePlaceholderValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:52:35.004 IosLearningUITests-Runner[47848:7493716] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.005 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.006 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateInProgress>.
+16:52:35.006 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded> cleaning up `Using automation session to fetch attributes 'XC_kAXXCAttributePlaceholderValue' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+    t =     8.91s         Check for interrupting elements affecting "facebookBtn" Button
+16:49:07.001 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff42062a050> 2019-05-27 13:52:35 +0000: Check for interrupting elements affecting "facebookBtn" Button
+16:52:35.007 IosLearningUITests-Runner[47848:7493677] Button, identifier: 'facebookBtn', label: 'Give your Facebook' faulted in (null): Fetching value for attribute XC_kAXXCAttributePlaceholderValue returned AX error kAXErrorAttributeUnsupported. for placeholderValue using XC_kAXXCAttributePlaceholderValue
+16:52:35.007 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x282790e10> 2019-05-27 13:52:35 +0000: Check for interrupting elements affecting "facebookBtn" Button
+16:52:35.008 IosLearningUITests-Runner[47848:7493677] Creating future for 'Fetching attributes 'XC_kAXXCAttributeSystemAppApplication' for Device system-wide element' with timeout 65.00
+16:52:35.011 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Fetching attributes 'XC_kAXXCAttributeSystemAppApplication' for Device system-wide element`
+16:52:35.011 IosLearningUITests-Runner[47848:7493733] Got attribute fetch response with values {
+    "XC_kAXXCAttributeSystemAppApplication" = "AX element pid: 52, elementOrHash.elementID: 0.1";
+}, error: (null)
+16:52:35.011 IosLearningUITests-Runner[47848:7493733] <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.013 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.013 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateInProgress>.
+16:52:35.013 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae8e0, state: XCTWaiterStateSucceeded> cleaning up `Fetching attributes 'XC_kAXXCAttributeSystemAppApplication' for Device system-wide element`
+16:52:35.015 IosLearningUITests-Runner[47848:7493677] Creating future for 'Fetching attributes 'XC_kAXXCAttributeFocusedApplications' for AX element pid: 52, elementOrHash.elementID: 0.1' with timeout 65.00
+16:52:35.018 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Fetching attributes 'XC_kAXXCAttributeFocusedApplications' for AX element pid: 52, elementOrHash.elementID: 0.1`
+16:52:35.018 IosLearningUITests-Runner[47848:7493715] Got attribute fetch response with values {
+    "XC_kAXXCAttributeFocusedApplications" =     (
+        "AX element pid: 47856, elementOrHash.elementID: 0.1"
+    );
+}, error: (null)
+16:52:35.018 IosLearningUITests-Runner[47848:7493715] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.019 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.019 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateInProgress>.
+16:52:35.019 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16a0, state: XCTWaiterStateSucceeded> cleaning up `Fetching attributes 'XC_kAXXCAttributeFocusedApplications' for AX element pid: 52, elementOrHash.elementID: 0.1`
+16:52:35.022 IosLearningUITests-Runner[47848:7493677] Active application elements: (
+    "AX element pid: 47856, elementOrHash.elementID: 0.1"
+)
+16:52:35.022 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:35.023 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.023 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.023 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2290, state: XCTWaiterStateInProgress>.
+16:52:35.023 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:49:07.018 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff420c06950> 2019-05-27 13:52:35 +0000: Check for interrupting elements affecting "facebookBtn" Button (0.016372s)
+16:52:35.023 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'
+16:52:35.024 IosLearningUITests-Runner[47848:7493677] Won't check for alerts in Target Application 'com.clujtesting.IosLearning', it's active but has a valid alert counter of 0.
+16:52:35.024 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x282790e10> 2019-05-27 13:52:35 +0000: Check for interrupting elements affecting "facebookBtn" Button (0.016372s)
+16:52:35.025 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x282780aa0> 2019-05-27 13:52:34 +0000: Find the "facebookBtn" Button (0.063412s)
+16:49:07.020 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff41d7dafc0> 2019-05-27 13:52:34 +0000: Find the "facebookBtn" Button (0.063412s)
+16:49:07.020 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff4206343c0> 2019-05-27 13:52:35 +0000: Synthesize event
+16:52:35.028 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x28278d9a0> 2019-05-27 13:52:35 +0000: Synthesize event
+16:52:35.029 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screens' with timeout 30.00
+    t =     8.93s     Synthesize event
+16:52:35.032 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screens`
+16:52:35.032 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.032 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2030, state: XCTWaiterStateInProgress>.
+16:52:35.032 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded> cleaning up `get screens`
+16:52:35.032 IosLearningUITests-Runner[47848:7493677] Request screenshot for frame {{inf, inf}, {0.0, 0.0}} of screen with ID 1, quality 1
+16:52:35.033 IosLearningUITests-Runner[47848:7493677] Creating future for 'Request screenshot' with timeout 30.00
+16:52:35.033 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screen scale' with timeout 30.00
+16:52:35.035 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2330, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+16:52:35.035 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2330, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.035 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2330, state: XCTWaiterStateInProgress>.
+16:52:35.035 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2330, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+16:52:35.038 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateInProgress> entering wait loop for 29.99s with expectations: `Request screenshot`
+16:52:35.096 IosLearningUITests-Runner[47848:7493716] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.096 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.097 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2030, state: XCTWaiterStateInProgress>.
+16:52:35.097 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2030, state: XCTWaiterStateSucceeded> cleaning up `Request screenshot`
+16:52:35.099 IosLearningUITests-Runner[47848:7493677] Activity 839C03F6-D170-43F1-BA50-B3CC2F94C4E9 added attachment with name 'kXCTAttachmentLegacyScreenImageData', UTI 'public.jpeg', lifetime 'deleteOnSuccess', hasPayload: YES.
+16:52:35.099 IosLearningUITests-Runner[47848:7493677] Computing hit point for Button, identifier: 'facebookBtn', label: 'Give your Facebook'
+16:52:35.099 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with attribute fetching on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:35.099 IosLearningUITests-Runner[47848:7493677] Creating future for 'Using automation session to fetch attributes 'XC_kAXXCAttributeVisiblePoint', 'XC_kAXXCAttributeWindowContextId', 'XC_kAXXCAttributeWindowDisplayId' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23' with timeout 30.00
+16:52:35.106 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Using automation session to fetch attributes 'XC_kAXXCAttributeVisiblePoint', 'XC_kAXXCAttributeWindowContextId', 'XC_kAXXCAttributeWindowDisplayId' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:52:35.137 IosLearningUITests-Runner[47848:7493733] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.138 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.138 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2290, state: XCTWaiterStateInProgress>.
+16:52:35.138 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> cleaning up `Using automation session to fetch attributes 'XC_kAXXCAttributeVisiblePoint', 'XC_kAXXCAttributeWindowContextId', 'XC_kAXXCAttributeWindowDisplayId' for AX element pid: 47856, elementOrHash.elementID: 4324518656.23`
+16:52:35.139 IosLearningUITests-Runner[47848:7493677] Creating future for 'Getting parameterized attribute XC_kAXXCParameterizedAttributeConvertHostedViewPositionFromContext with parameter (
+        {
+        X = "207.1666666666667";
+        Y = "270.8333333333333";
+    },
+    3710483678,
+    1
+)' with timeout 65.00
+16:52:35.139 IosLearningUITests-Runner[47848:7493733] Handling kAXUserTestingNotification
+16:52:35.140 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1630, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Getting parameterized attribute XC_kAXXCParameterizedAttributeConvertHostedViewPositionFromContext with parameter (
+        {
+        X = "207.1666666666667";
+        Y = "270.8333333333333";
+    },
+    3710483678,
+    1
+)`
+16:52:35.144 IosLearningUITests-Runner[47848:7493733] <XCTWaiter: 0x2806a1630, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.145 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1630, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.145 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1630, state: XCTWaiterStateInProgress>.
+16:52:35.145 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1630, state: XCTWaiterStateSucceeded> cleaning up `Getting parameterized attribute XC_kAXXCParameterizedAttributeConvertHostedViewPositionFromContext with parameter (
+        {
+        X = "207.1666666666667";
+        Y = "270.8333333333333";
+    },
+    3710483678,
+    1
+)`
+16:52:35.148 IosLearningUITests-Runner[47848:7493677] hit point computation for Button, identifier: 'facebookBtn', label: 'Give your Facebook' took 0.0s and 1 attempts
+16:52:35.149 IosLearningUITests-Runner[47848:7493677] Creating future for 'synthesize event' with timeout 30.05
+16:52:35.149 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'running' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:35.149 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'running' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:35.153 IosLearningUITests-Runner[47848:7493677] Not fulfilling (Expect value of 'running' of com.clujtesting.IosLearning (pid:47856) to be '0' OR synthesize event) because no subexpectations are fulfilled
+16:52:35.153 IosLearningUITests-Runner[47848:7493677] Future has cancelation expectation (Expect value of 'running' of com.clujtesting.IosLearning (pid:47856) to be '0' OR synthesize event)
+16:52:35.155 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2180, state: XCTWaiterStateInProgress> entering wait loop for 30.05s with expectations: `(Expect value of 'running' of com.clujtesting.IosLearning (pid:47856) to be '0' OR synthesize event)`
+16:52:35.216 IosLearningUITests-Runner[47848:7493716] Handling kAXUserTestingNotification
+16:52:35.217 IosLearningUITests-Runner[47848:7493716] Got event completion callback
+16:52:35.217 IosLearningUITests-Runner[47848:7493716] Fulfilling (Expect value of 'running' of com.clujtesting.IosLearning (pid:47856) to be '0' OR synthesize event) because synthesize event is fulfilled
+16:52:35.217 IosLearningUITests-Runner[47848:7493716] <XCTWaiter: 0x2806a2180, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.217 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2180, state: XCTWaiterStateSucceeded> done waiting
+    t =     9.13s     Wait for com.clujtesting.IosLearning to idle
+16:49:07.224 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff4209d61a0> 2019-05-27 13:52:35 +0000: Synthesize event (0.19328s)
+16:49:07.227 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff4203900a0> 2019-05-27 13:52:35 +0000: Wait for com.clujtesting.IosLearning to idle
+16:52:35.217 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2180, state: XCTWaiterStateInProgress>.
+16:52:35.220 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2180, state: XCTWaiterStateSucceeded> cleaning up `(Expect value of 'running' of com.clujtesting.IosLearning (pid:47856) to be '0' OR synthesize event)`
+16:52:35.220 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'running' of com.clujtesting.IosLearning (pid:47856) to be '0'
+16:52:35.221 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x28278d9a0> 2019-05-27 13:52:35 +0000: Synthesize event (0.19328s)
+16:52:35.224 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x282790c30> 2019-05-27 13:52:35 +0000: Wait for com.clujtesting.IosLearning to idle
+16:52:35.225 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screens' with timeout 30.00
+16:52:35.229 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screens`
+16:52:35.229 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.229 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae740, state: XCTWaiterStateInProgress>.
+16:52:35.229 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> cleaning up `get screens`
+16:52:35.230 IosLearningUITests-Runner[47848:7493677] Request screenshot for frame {{inf, inf}, {0.0, 0.0}} of screen with ID 1, quality 1
+16:52:35.230 IosLearningUITests-Runner[47848:7493677] Creating future for 'Request screenshot' with timeout 30.00
+16:52:35.231 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screen scale' with timeout 30.00
+16:52:35.232 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f30, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+16:52:35.232 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f30, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.232 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1f30, state: XCTWaiterStateInProgress>.
+16:52:35.232 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f30, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+16:52:35.245 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16f0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request screenshot`
+16:52:35.248 IosLearningUITests-Runner[47848:7493733] Handling kAXUserTestingNotification
+16:52:35.304 IosLearningUITests-Runner[47848:7493716] <XCTWaiter: 0x2806a16f0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.305 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16f0, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.308 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a16f0, state: XCTWaiterStateInProgress>.
+16:52:35.308 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a16f0, state: XCTWaiterStateSucceeded> cleaning up `Request screenshot`
+16:52:35.310 IosLearningUITests-Runner[47848:7493677] Activity 5884BC94-441B-4FB1-83B2-8545C3609755 added attachment with name 'kXCTAttachmentLegacyScreenImageData', UTI 'public.jpeg', lifetime 'deleteOnSuccess', hasPayload: YES.
+16:52:35.311 IosLearningUITests-Runner[47848:7493677] Waiting for com.clujtesting.IosLearning (PID 47856) quiescence...
+16:52:35.313 IosLearningUITests-Runner[47848:7493733] com.clujtesting.IosLearning (pid:47856) eventLoopHasIdled 1 -> 0
+16:52:35.314 IosLearningUITests-Runner[47848:7493733] Posting KVO notifications for eventLoopHasIdled
+16:52:35.315 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with main run loop idle notifications on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:35.316 IosLearningUITests-Runner[47848:7493677] Requesting main run loop idle notification using automation session for com.clujtesting.IosLearning (pid:47856)
+16:52:35.318 IosLearningUITests-Runner[47848:7493733] com.clujtesting.IosLearning (pid:47856) animationsHaveFinished 1 -> 0
+16:52:35.319 IosLearningUITests-Runner[47848:7493733] Posting KVO notifications for animationsHaveFinished
+16:52:35.321 IosLearningUITests-Runner[47848:7493677] Checked support for automation session with animations idle notifications on iOS: YES, current version 12 (57), requires 12 (any build)
+16:52:35.322 IosLearningUITests-Runner[47848:7493677] Requesting animations idle notification using automation session for com.clujtesting.IosLearning (pid:47856)
+16:52:35.324 IosLearningUITests-Runner[47848:7493733] Got animations reply for com.clujtesting.IosLearning (PID 47856)
+16:52:35.324 IosLearningUITests-Runner[47848:7493733] Animations are not active.
+16:52:35.324 IosLearningUITests-Runner[47848:7493733] com.clujtesting.IosLearning (pid:47856) animationsHaveFinished 0 -> 1
+16:52:35.326 IosLearningUITests-Runner[47848:7493733] Posting KVO notifications for animationsHaveFinished
+16:52:35.328 IosLearningUITests-Runner[47848:7493677] Waiting on quiescence state variables
+16:52:35.330 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=1
+16:52:35.330 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1': fulfill=0
+16:52:35.330 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1': fulfill=0
+16:52:35.331 IosLearningUITests-Runner[47848:7493677] Fulfilling (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1') because Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' is fulfilled
+16:52:35.333 IosLearningUITests-Runner[47848:7493677] isQuiescent: self.eventLoopHasIdled: 0 && self.animationsHaveFinished: 1
+16:52:35.334 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1': fulfill=0
+16:52:35.335 IosLearningUITests-Runner[47848:7493677] isQuiescent: self.eventLoopHasIdled: 0 && self.animationsHaveFinished: 1
+16:52:35.336 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1': fulfill=0
+16:52:35.338 IosLearningUITests-Runner[47848:7493677] Not fulfilling (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) because Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' is not fulfilled
+16:52:35.339 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:35.340 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:35.340 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:35.340 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0': fulfill=0
+16:52:35.343 IosLearningUITests-Runner[47848:7493677] Not fulfilling (Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0' OR (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) OR Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0') because no subexpectations are fulfilled
+16:52:35.343 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae7d0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `(Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0' OR (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) OR Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0')`
+16:52:35.351 IosLearningUITests-Runner[47848:7493715] Got event loop idle reply for com.clujtesting.IosLearning (PID 47856)
+16:52:35.352 IosLearningUITests-Runner[47848:7493715] Event loop is idle.
+16:52:35.352 IosLearningUITests-Runner[47848:7493733] com.clujtesting.IosLearning (pid:47856) eventLoopHasIdled 0 -> 1
+16:52:35.353 IosLearningUITests-Runner[47848:7493733] Posting KVO notifications for eventLoopHasIdled
+16:52:35.353 IosLearningUITests-Runner[47848:7493733] isQuiescent: self.eventLoopHasIdled: 1 && self.animationsHaveFinished: 1
+16:52:35.353 IosLearningUITests-Runner[47848:7493733] isQuiescent: self.eventLoopHasIdled: 1 && self.animationsHaveFinished: 1
+16:52:35.353 IosLearningUITests-Runner[47848:7493733] KVO change: checked status of Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1': fulfill=1
+16:52:35.353 IosLearningUITests-Runner[47848:7493733] Fulfilling (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) because all subexpectations are fulfilled
+16:52:35.353 IosLearningUITests-Runner[47848:7493733] Fulfilling (Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0' OR (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) OR Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0') because (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) is fulfilled
+16:52:35.354 IosLearningUITests-Runner[47848:7493733] <XCTWaiter: 0x2806ae7d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.355 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae7d0, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.356 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae7d0, state: XCTWaiterStateInProgress>.
+16:52:35.356 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae7d0, state: XCTWaiterStateSucceeded> cleaning up `(Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0' OR (Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1' AND (Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1')) OR Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0')`
+16:52:35.356 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'foreground' of com.clujtesting.IosLearning (pid:47856) to be '0'
+16:52:35.356 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1'
+16:52:35.356 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'hasBridgedProcess' of com.clujtesting.IosLearning (pid:47856) to be '0'
+16:52:35.359 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'bridgedProcess.isQuiescent' of com.clujtesting.IosLearning (pid:47856) to be '1'
+16:52:35.359 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'accessibilityActive' of com.clujtesting.IosLearning (pid:47856) to be '0'
+16:52:35.360 IosLearningUITests-Runner[47848:7493677] com.clujtesting.IosLearning has quiesced or quiescence timeout has elapsed.
+16:52:35.360 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x282790c30> 2019-05-27 13:52:35 +0000: Wait for com.clujtesting.IosLearning to idle (0.136262s)
+16:49:07.361 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff420d3f1b0> 2019-05-27 13:52:35 +0000: Wait for com.clujtesting.IosLearning to idle (0.136262s)
+16:52:35.366 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x282790aa0> 2019-05-27 13:52:34 +0000: Tap "facebookBtn" Button (0.493173s)
+16:49:07.364 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff420a16fc0> 2019-05-27 13:52:34 +0000: Tap "facebookBtn" Button (0.493173s)
+16:52:35.369 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:35.370 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.370 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.371 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae740, state: XCTWaiterStateInProgress>.
+16:52:35.371 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae740, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.371 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'
+16:52:35.374 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:35.375 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.375 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.375 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2290, state: XCTWaiterStateInProgress>.
+16:52:35.375 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.377 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'
+16:52:35.378 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:35.378 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.378 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.379 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2290, state: XCTWaiterStateInProgress>.
+16:52:35.379 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.382 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'
+16:52:35.382 IosLearningUITests-Runner[47848:7493677] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1': fulfill=1
+16:52:35.384 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.384 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.384 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a2290, state: XCTWaiterStateInProgress>.
+16:52:35.384 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a2290, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'`
+16:52:35.384 IosLearningUITests-Runner[47848:7493677] cleaning up Expect value of 'isApplicationStateKnown' of Target Application 'com.clujtesting.IosLearning' to be '1'
+    t =     9.29s Tear Down
+16:52:35.388 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x2827900f0> 2019-05-27 13:52:35 +0000: Tear Down
+16:49:07.380 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff41fcb7e10> 2019-05-27 13:52:35 +0000: Tear Down
+16:52:35.389 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screens' with timeout 30.00
+16:52:35.390 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a20d0, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screens`
+16:52:35.390 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a20d0, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.390 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a20d0, state: XCTWaiterStateInProgress>.
+16:52:35.390 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a20d0, state: XCTWaiterStateSucceeded> cleaning up `get screens`
+16:52:35.391 IosLearningUITests-Runner[47848:7493677] Request screenshot for frame {{inf, inf}, {0.0, 0.0}} of screen with ID 1, quality 0
+16:52:35.393 IosLearningUITests-Runner[47848:7493677] Creating future for 'Request screenshot' with timeout 30.00
+16:52:35.393 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screen scale' with timeout 30.00
+16:52:35.394 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a21b0, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+16:52:35.394 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a21b0, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.395 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a21b0, state: XCTWaiterStateInProgress>.
+16:52:35.395 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a21b0, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+16:52:35.398 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae4a0, state: XCTWaiterStateInProgress> entering wait loop for 29.99s with expectations: `Request screenshot`
+16:52:35.621 IosLearningUITests-Runner[47848:7493716] <XCTWaiter: 0x2806ae4a0, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.622 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae4a0, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.622 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae4a0, state: XCTWaiterStateInProgress>.
+16:52:35.622 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae4a0, state: XCTWaiterStateSucceeded> cleaning up `Request screenshot`
+16:52:35.624 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screen scale' with timeout 30.00
+16:52:35.626 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1730, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+16:52:35.626 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1730, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.626 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1730, state: XCTWaiterStateInProgress>.
+16:52:35.626 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1730, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+16:49:07.624 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff420a16fc0> 2019-05-27 13:52:35 +0000: Added attachment named 'Screenshot of main screen (ID 1)'
+16:52:35.628 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x282790640> 2019-05-27 13:52:35 +0000: Added attachment named 'Screenshot of main screen (ID 1)'
+16:52:35.630 IosLearningUITests-Runner[47848:7493677] Activity 59D9EE04-4E8B-4588-9D64-7B7002EADB4A added attachment with name 'Screenshot of main screen (ID 1)', UTI 'public.png', lifetime 'deleteOnSuccess', hasPayload: YES.
+16:52:35.630 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x282790640> 2019-05-27 13:52:35 +0000: Added attachment named 'Screenshot of main screen (ID 1)' (0.00138295s)
+    t =     9.53s     Added attachment named 'Screenshot of main screen (ID 1)'
+    t =     9.54s     Terminate com.clujtesting.IosLearning:47856
+16:49:07.676 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff4205f1b00> 2019-05-27 13:52:35 +0000: Added attachment named 'Screenshot of main screen (ID 1)' (0.00138295s)
+16:49:07.679 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] will start activity <XCActivityRecord: 0x7ff420d0ee90> 2019-05-27 13:52:35 +0000: Terminate com.clujtesting.IosLearning:47856
+16:52:35.638 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] started activity <XCActivityRecord: 0x2827906e0> 2019-05-27 13:52:35 +0000: Terminate com.clujtesting.IosLearning:47856
+16:52:35.639 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screens' with timeout 30.00
+16:52:35.642 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1700, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screens`
+16:52:35.643 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1700, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.643 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1700, state: XCTWaiterStateInProgress>.
+16:52:35.643 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1700, state: XCTWaiterStateSucceeded> cleaning up `get screens`
+16:52:35.645 IosLearningUITests-Runner[47848:7493677] Request screenshot for frame {{inf, inf}, {0.0, 0.0}} of screen with ID 1, quality 1
+16:52:35.645 IosLearningUITests-Runner[47848:7493677] Creating future for 'Request screenshot' with timeout 30.00
+16:52:35.645 IosLearningUITests-Runner[47848:7493677] Creating future for 'get screen scale' with timeout 30.00
+16:52:35.648 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1670, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+16:52:35.649 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1670, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.649 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1670, state: XCTWaiterStateInProgress>.
+16:52:35.649 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1670, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+16:52:35.655 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1700, state: XCTWaiterStateInProgress> entering wait loop for 29.99s with expectations: `Request screenshot`
+16:52:35.739 IosLearningUITests-Runner[47848:7493715] <XCTWaiter: 0x2806a1700, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:35.740 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1700, state: XCTWaiterStateSucceeded> done waiting
+16:52:35.742 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1700, state: XCTWaiterStateInProgress>.
+16:52:35.742 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1700, state: XCTWaiterStateSucceeded> cleaning up `Request screenshot`
+16:52:35.745 IosLearningUITests-Runner[47848:7493677] Activity F09120C2-BFCC-4C86-AD03-CA3F1CD0FB48 added attachment with name 'kXCTAttachmentLegacyScreenImageData', UTI 'public.jpeg', lifetime 'deleteOnSuccess', hasPayload: YES.
+16:52:35.745 IosLearningUITests-Runner[47848:7493677] Using token to terminate <XCTRunnerIDESession: 0x2827a5770> via Xcode
+16:49:07.739 xcodebuild[68447:382213] Test runner session received request for termination of application with token 4
+16:49:07.740 xcodebuild[68447:382213] Terminating session for token 4 by canceling execution tracker <IDEExecutionOperationTracker: 0x7ff420667ba0: Launch application com.clujtesting.IosLearning for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff42062de10: subtrackers=none>"
+)>
+16:52:35.746 IosLearningUITests-Runner[47848:7493716] Monitor: termination is being tracked for com.clujtesting.IosLearning (pid:47856)
+16:52:35.749 IosLearningUITests-Runner[47848:7493677] Waiting for termination
+16:52:35.749 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Expect predicate `running == 0` for object com.clujtesting.IosLearning (pid:47856)`
+16:49:07.765 xcodebuild[68447:382213] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> ############## DID EXECUTE #################
+16:49:07.766 xcodebuild[68447:382213] Observed termination of tracker for token 4 for launch of com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app
+16:52:35.775 IosLearningUITests-Runner[47848:7493715] Automation session connection to pid 47856 interrupted
+16:52:35.777 IosLearningUITests-Runner[47848:7493733] Got exit status 0 for process with token 4
+16:52:35.777 IosLearningUITests-Runner[47848:7493733] Got exit status 0 for process with token 4 -> com.clujtesting.IosLearning (pid:47856)
+16:52:35.778 IosLearningUITests-Runner[47848:7493733] Stop tracking process with token 4
+16:52:35.778 IosLearningUITests-Runner[47848:7493733] Monitor: set (null) for token 4
+16:52:35.801 IosLearningUITests-Runner[47848:7493715] Ignoring application state update to XCTApplicationRunStateUnknown for pid 47856
+16:52:35.976 IosLearningUITests-Runner[47848:7493715] Handling kAXPidStatusChangedNotification
+16:52:35.977 IosLearningUITests-Runner[47848:7493715] Got kAXPidStatusChangedNotification for 47856: suspended
+16:52:36.024 IosLearningUITests-Runner[47848:7493733] Handling kAXUserTestingNotification
+16:52:36.026 IosLearningUITests-Runner[47848:7493733] Handling kAXUserTestingNotification
+16:52:36.028 IosLearningUITests-Runner[47848:7493733] Handling kAXUserTestingNotification
+16:52:36.028 IosLearningUITests-Runner[47848:7493733] Handling kAXUserTestingNotification
+16:52:36.060 IosLearningUITests-Runner[47848:7493733] com.clujtesting.IosLearning (pid:47856) accessibility active (loaded) 1 -> 0
+16:52:36.065 IosLearningUITests-Runner[47848:7493677] [AM:0] Processing state snapshot for com.clujtesting.IosLearning
+16:52:36.065 IosLearningUITests-Runner[47848:7493677] Done setting pid for <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app> to 47856
+16:52:36.065 IosLearningUITests-Runner[47848:7493677] App state updated for <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app>: Not Running (1)
+16:52:36.066 IosLearningUITests-Runner[47848:7493715] com.clujtesting.IosLearning (pid:47856) application state Running Foreground (4) -> Not Running (1)
+16:52:36.760 IosLearningUITests-Runner[47848:7493871] <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:36.760 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateSucceeded> done waiting
+16:52:36.760 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateInProgress>.
+16:52:36.760 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806a1f50, state: XCTWaiterStateSucceeded> cleaning up `Expect predicate `running == 0` for object com.clujtesting.IosLearning (pid:47856)`
+16:52:36.760 IosLearningUITests-Runner[47848:7493715] com.clujtesting.IosLearning (pid:47856) pid 47856 -> 0
+16:52:36.761 IosLearningUITests-Runner[47848:7493715] Monitor: set (null) for pid 47856
+16:52:36.760 IosLearningUITests-Runner[47848:7493677] <XCUIApplicationImpl: 0x280a2f9f0 com.clujtesting.IosLearning at /Users/admin/Library/Developer/Xcode/DerivedData/IosLearning-awdmtngxtjlyqagskjoklumrmdit/Build/Products/Debug-iphoneos/IosLearning.app> changing currentProcess from com.clujtesting.IosLearning (pid:0) to com.clujtesting.IosLearning (pid:0)
+16:52:36.762 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x2827906e0> 2019-05-27 13:52:35 +0000: Terminate com.clujtesting.IosLearning:47856 (1.12384s)
+16:52:36.762 IosLearningUITests-Runner[47848:7493716] com.clujtesting.IosLearning (pid:0) application state Unknown (0) -> Not Running (1)
+16:49:08.764 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff420d0ee90> 2019-05-27 13:52:35 +0000: Terminate com.clujtesting.IosLearning:47856 (1.12384s)
+Test Case '-[IosLearningUITests.Tests testMainScreenTest]' passed (10.676 seconds).
+16:49:08.766 xcodebuild[68447:382213] -[IosLearningUITests.Tests testMainScreenTest] did finish activity <XCActivityRecord: 0x7ff4209ba5b0> 2019-05-27 13:52:35 +0000: Tear Down (1.3816s)
+16:52:36.769 IosLearningUITests-Runner[47848:7493677] -[Tests testMainScreenTest] finished activity <XCActivityRecord: 0x2827900f0> 2019-05-27 13:52:35 +0000: Tear Down (1.3816s)
+16:49:08.766 xcodebuild[68447:382213] _XCT_testCaseDidFinishForTestClass:IosLearningUITests.Tests method:testMainScreenTest withStatus:passed duration:10.67595398426056
+16:52:36.773 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testCaseDidFinish:]
+16:52:36.775 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'Tests' passed at 2019-05-27 16:52:36.774.
+	 Executed 1 test, with 0 failures (0 unexpected) in 10.676 (10.680) seconds
+16:49:08.771 xcodebuild[68447:382213] _XCT_testSuite:Tests didFinishAt:2019-05-27 13:52:36 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:10.67595398426056 totalDuration:10.67965602874756
+16:52:36.778 IosLearningUITests-Runner[47848:7493677] Activity statistics for Tests:
+Test Suite 'IosLearningUITests.xctest' passed at 2019-05-27 16:52:36.779.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 29.329 (29.354) seconds
+16:52:36.778 IosLearningUITests-Runner[47848:7493677] 0.79s : Wait for com.clujtesting.IosLearning to idle
+16:52:36.779 IosLearningUITests-Runner[47848:7493677] 0.02s : Check for UI interruption
+16:52:36.779 IosLearningUITests-Runner[47848:7493677] 0.16s : Resolve element query
+16:49:08.775 xcodebuild[68447:382213] _XCT_testSuite:IosLearningUITests.xctest didFinishAt:2019-05-27 13:52:36 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:29.32899606227875 totalDuration:29.35380399227142
+16:52:36.779 IosLearningUITests-Runner[47848:7493677] 1.73s : Other
+16:52:36.779 IosLearningUITests-Runner[47848:7493677] 6.78s : Launch com.clujtesting.IosLearning
+16:52:36.779 IosLearningUITests-Runner[47848:7493677] 1.12s : Terminate com.clujtesting.IosLearning
+16:49:08.777 xcodebuild[68447:382213] _XCT_testSuite:XCTest_Gherkin.framework didStartAt:2019-05-27 13:52:36 +0000
+Test Suite 'XCTest_Gherkin.framework' started at 2019-05-27 16:52:36.783
+Test Suite 'XCTest_Gherkin.framework' passed at 2019-05-27 16:52:36.784.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+16:52:36.779 IosLearningUITests-Runner[47848:7493677] Total time in activities: 10.60s
+16:52:36.780 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:52:36.782 IosLearningUITests-Runner[47848:7493677] Activity statistics for IosLearningUITests.xctest:
+16:52:36.782 IosLearningUITests-Runner[47848:7493677] 3.13s : Wait for com.clujtesting.IosLearning to idle
+16:52:36.782 IosLearningUITests-Runner[47848:7493677] 0.13s : Check for UI interruption
+16:49:08.783 xcodebuild[68447:382213] _XCT_testSuite:XCTest_Gherkin.framework didFinishAt:2019-05-27 13:52:36 +0000 runCount:0 withFailures:0 unexpected:0 testDuration:0 totalDuration:0.00111997127532959
+Test Suite 'Selected tests' passed at 2019-05-27 16:52:36.791.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 29.329 (29.369) seconds
+16:52:36.782 IosLearningUITests-Runner[47848:7493677] 0.63s : Resolve element query
+16:52:36.783 IosLearningUITests-Runner[47848:7493677] 7.36s : Other
+16:49:08.789 xcodebuild[68447:382213] _XCT_testSuite:Selected tests didFinishAt:2019-05-27 13:52:36 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:29.32899606227875 totalDuration:29.36931002140045
+16:52:36.783 IosLearningUITests-Runner[47848:7493677] 15.53s : Launch com.clujtesting.IosLearning
+16:52:36.783 IosLearningUITests-Runner[47848:7493677] 2.22s : Terminate com.clujtesting.IosLearning
+16:52:36.783 IosLearningUITests-Runner[47848:7493677] Total time in activities: 29.00s
+16:49:08.790 xcodebuild[68447:382213] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+16:52:36.783 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testSuiteWillStart:]
+16:52:36.784 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:52:36.793 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:52:36.794 IosLearningUITests-Runner[47848:7493677] Activity statistics for Selected tests:
+16:52:36.794 IosLearningUITests-Runner[47848:7493677] 3.13s : Wait for com.clujtesting.IosLearning to idle
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] 0.13s : Check for UI interruption
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] 0.63s : Resolve element query
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] 7.36s : Other
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] 15.53s : Launch com.clujtesting.IosLearning
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] 2.22s : Terminate com.clujtesting.IosLearning
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] Total time in activities: 29.00s
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] Finished running suite.
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] Exited test execution event loop
+16:52:36.795 IosLearningUITests-Runner[47848:7493677] Calling completion.
+16:52:36.802 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae680, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `IDE confirmed the end of session`
+16:52:36.802 IosLearningUITests-Runner[47848:7493871] <XCTWaiter: 0x2806ae680, state: XCTWaiterStateSucceeded>: cancelWaiting
+16:52:36.804 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae680, state: XCTWaiterStateSucceeded> done waiting
+16:52:36.804 IosLearningUITests-Runner[47848:7493677] Canceling watchdog for <XCTWaiter: 0x2806ae680, state: XCTWaiterStateInProgress>.
+16:52:36.804 IosLearningUITests-Runner[47848:7493677] <XCTWaiter: 0x2806ae680, state: XCTWaiterStateSucceeded> cleaning up `IDE confirmed the end of session`
+16:49:08.817 xcodebuild[68447:382227] <XCTTestRunnerSession: 0x7ff420812c10> lost its connection.
+16:49:08.818 xcodebuild[68447:382213] Lost connection to test process
+16:49:08.829 xcodebuild[68447:382213] 📱<DVTiOSDevice (0x7ff420464a80), CLD - Inflight - iPhone 6 Plus, iPhone, 12.1.4 (16D57), 2ccf30dd21fa31a77967a66580e6c7ee62ecce88> ############## DID EXECUTE #################
+16:49:08.831 xcodebuild[68447:382213] <IDETestOperationCoordinator: 0x7ff4205aefa0> finished receiving data from testing launch session
+16:49:08.831 xcodebuild[68447:382213] <IDETestOperationCoordinator: 0x7ff4205aefa0>: _considerFlushingDelegateBlockQueue - nothing to flush
+16:49:08.831 xcodebuild[68447:382213] _finishWithError:(null)

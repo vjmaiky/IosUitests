@@ -1,0 +1,6 @@
+16:48:38.584 xcodebuild[68447:383282] Got authorization request for pid 47848
+
+16:48:38.584 xcodebuild[68447:383282] Requesting authorization for pid 47848
+
+16:48:38.587 xcodebuild[68447:383282] Got reply to authorization request for pid 47848 (result:error): 1: (null)
+
